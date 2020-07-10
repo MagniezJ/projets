@@ -104,7 +104,7 @@
 
         .suggest{
             margin-left: 30%;
-            margin-top: :5%;
+            margin-top:5%;
             font-family: 'Cambay-Regular';
             font-size: 28px;
         }
@@ -112,4 +112,21 @@
         #gif{
             margin-left: 50%;
             margin-top: -5%;
+        }
+
+        #comedie{
+            margin-left: 30%;
+            margin-top:5%;
+            font-family: 'Cambay-Regular';
+            font-size: 28px;
+        }
+
+        .films{
+            display: inline-block;
+            width: 90%;
+            padding: 3%;
+        }
+
+        .films a{
+            padding: 3%;
         }
