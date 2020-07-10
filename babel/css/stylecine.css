@@ -1,0 +1,32 @@
+#cine{
+    font-family: 'Cambay-Regular';
+    font-size: 38px;
+    margin-left: 30%;
+}
+
+.cine{
+ margin-left: 8%;
+}
+
+#tcine{
+    display: flex;
+    flex-direction: row;
+}
+
+#nom{
+    margin-right: 15%;
+    margin-left: 5%;
+}
+
+#al{
+    margin-right: 3%;
+    margin-left: 3%;
+}
+
+#gaum{
+    margin-left: 5%;
+}
+
+#sport{
+    margin-left: 12%;
+}
