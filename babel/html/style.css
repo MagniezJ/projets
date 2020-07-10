@@ -176,7 +176,7 @@ p img{
 }
 
 body{
-	background-image:url("images/backg00.png");    
+	background-image:url("../img/backg00.png");    
     margin: auto;   
 }
 

@@ -1,66 +1,125 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <link rel="shortcut icon" type="image/x-icon" href="" />
     <title>
         Projet Babel
     </title>
-    <link  rel="stylesheet" href="../css/style.css"/>
+    <link rel="stylesheet" href="../css/style2.css" />
+    <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav id="nav" > 
-            <a href="#">
-                <img id="logo" src="../img/04.jpg"/>   
-            </a> 
-            <a class="acc" href="#">Accueil</a>
-            <a class="nv" href="#">Nouveautés</a>
-            <a class="popu" href="#">Populaires</a>
-            <a class="new" href="#">News</a>
-            <input type="search" id="maRecherche" name="q"
-     placeholder="Rechercher…">
-                </nav>
-                <section>
-                    <iframe class="ba" width="560" height="315" src="https://www.youtube.com/embed/sS4QydtwuRs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                    </iframe>
-                    <div id="explic">
-                    <p id="titre">Mes Vies De Chien</p>
-                    <p> 2017-1h41min</p>
-                    <p>Réalisé par Lasse Hallström </p>
-                    <p>Avec Britt Robertson, K.J. Apa, John Ortiz </p>
-                    <p>Note : <strong>3,4/5</strong></p>
-                </div>
-                <iframe id="gif"src="https://giphy.com/embed/hulolY7iRxWJZP18nV" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-                <div class="resume">
-                <p> <strong>Résumé:</strong> </br>
-                    Qui a dit que les animaux n'avaient pas d'âme ? Sûrement pas le petit Ethan, 8 ans, qui en</br>
-                    1962 s'embarque dans une aventure hors du commun en recueillant un chiot nommé</br>
-                     Bailey.</br> 
-                    Au fil des années, Ethan noue des liens très forts avec son chien, présent à chaque étape</br>
-                     importante de sa vie. Jusqu'au jour où, dévasté, il doit se résoudre à laisser partir Bailey,</br>
-                      âgé et malade.</br> 
-                    Et si le départ de l'animal n'était en fait qu'un commencement ? </br>
-                    Réincarné tour à tour en berger allemand, golden retriever ou labrador, vivant des aventures</br>
-                     palpitantes comme chien de sauvetage ou la destinée sereine d’un petit chien </br>
-                     de compagnie, Bailey va se découvrir, existence après existence, un but : retrouver son maître Ethan coûte que coûte…</p>
-                    </div>
-                    <div class="suggest">
-                        <p><strong>Si vous avez aimé , Ces films vous plairons surement</strong></p>
-                    </div>
-                </section>
-                <footer >
-                    <img  id="l" src="../img/logo_a.png"/>
-                    <p id="c">© 2020 Aflamy-La bibliothèque des films 
-                        <a href="#" id="m">Mentions Légales</a> 
-                        <a href="#" id="p">Politique de Confidentialité</a>
-                       <a href="#" >  <img id="insta" src="../img/instagram.png"/></a>
-                       <a href="#"> <img id="twit" src="../img/twitter.png"/></a>
-                       <a href="#"> <img id="fb" src="../img/fb.png"/></a>
-                       </p>
-                    
-                 
-   
-                   </footer>
-   </body>
-   </html>
+<header>
+    <div class="toph">
+    <id class="logo0">
+        <img src="../img/logo_aflamy0.png">
+    </id>
+    <id class="biblio">
+    <div>
+	<h1>Votre bibliothèque <br/> des films</h1>
+    </div>   			
+    <div class="form0">
+        <form method="post" action="traitement.php" class="recherche">
+            <p>                         
+                <input type="search" name="recherche" id="recherche" placeholder="Film, cathégorie... " size="20" maxlength="10">
+                <button>Rechercher</button>
+            </p>
+        </form>
+    </div>   
+    </id>
+    <id class="ruban">
+        <img src="../img/ruban.png">
+    </div>
+<nav>
+	<a href="#" class="p1">Accueil</a> 
+	<a href="#" class="p2">Nouveautés</a>
+	<a href="#" class="p3">Cinémas</a>
+    <a href="#" class="p4">Top 10</a>
+    <a href="#" class="p5">Box Office</a>
+</nav>    
+</header>
+    <img id="aff" src="../img/viechien.jpg" />
+    </div>
+    <p class="titre">Mes Vies De Chien</p>
+    <img  id=titre src="../img/chien.jpeg"/>
+        
+        <div id="explic">  
+            <p> 2017-1h41min</p>
+            <p>Réalisé par Lasse Hallström </p>
+            <p>Avec Britt Robertson, K.J. Apa, John Ortiz </p>
+            <p>Note : <strong>3,4/5</strong></p>
+        </div>
+        
+        <div class="resume">
+            <p> <strong>Synopsis:</strong> </br></br>
+                Qui a dit que les animaux n'avaient pas d'âme ? Sûrement pas le petit Ethan, 8 ans, qui en
+                1962 s'embarque dans une aventure hors du commun</br> en recueillant un chiot nommé
+                Bailey.</br>
+                Au fil des années, Ethan noue des liens très forts avec son chien, présent à chaque étape
+                importante de sa vie. Jusqu'au jour où, dévasté, il doit </br>se résoudre à laisser partir Bailey,
+                âgé et malade.</br>
+                Et si le départ de l'animal n'était en fait qu'un commencement ? </br>
+                Réincarné tour à tour en berger allemand, golden retriever ou labrador, vivant des aventures
+                palpitantes comme chien de sauvetage ou la destinée</br> sereine d’un petit chien 
+                de compagnie, Bailey va se découvrir, existence après existence, un but : retrouver son maître
+                Ethan coûte que coûte…</p>
+        </div>
+
+        <div id="act">
+            <p> Acteurs:</p>
+        </div>
+        <div id="acteur">
+        <img id="acteu" src="../img/acteurs/br.jpg"/>
+        <img id="acteu"src="../img/acteurs/JO.jpg"/>
+        <img id="acteu"src="../img/acteurs/KJA.jpeg"/>
+    </div>
+    <p id="act" >Bande Annonce:</p>
+    <iframe class="ba" width="560" height="315" src="https://www.youtube.com/embed/sS4QydtwuRs" frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>
+        <table class="tab">
+            <thead>
+                <tr>
+                    <th colspan="2"> 3 Bonnes Raisons d'aller le voir</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img id="dog" src="../img/dog.svg"/>Pour se rappeler que le chien est bel et bien le meilleur ami de l'homme</td>
+                </tr>
+                <tr>
+                    <td><img  id="dog" src="../img/dog2.svg"/>Pour apprendre une belle leçon de vie</td>
+                </tr>
+                <tr>
+                    <td><img id="dog" src="../img/dog3.svg"/>Pour vivre un instant de grande émotion, entre rire et larmes.</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="suggest">
+            <p><strong>Si vous avez aimé , Ces films vous plairons surement</strong></p>
+            <iframe id="gif" src="https://giphy.com/embed/hulolY7iRxWJZP18nV" frameBorder="0" class="giphy-embed"
+        allowFullScreen></iframe>
+        <div class="fsuggest">
+            <img id="fsuggest" src="../img/beetho.jpeg"/>
+            <img id="fsuggest" src="../img/Hatchi.jpeg"/>
+            <img id="fsuggest" src="../img/sebb.jpeg"/>
+        </div>
+        </div>
+        <footer>
+            <div class="rubanf">
+                <img src="../img/rubanfooter.png">
+            </div>
+            <p>
+                <img src="../img/copyright.png">
+                2020-Aflamy-Site réalisé par CAL ’ TECH </p>
+            <div class="resaux">
+                <a href="#"><img src="../img/fb.png"></a>
+                <a href="#"><img src="../img/twitter.png"></a>
+                <a href="#"><img src="../img/instagram.png"></a>
+            </div>
+        </footer>
+</body>
+</html>
