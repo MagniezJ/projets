@@ -1,16 +1,16 @@
 @font-face{
 	font-family:'Cambay-Bold';
-	src:url('fonts/Cambay-Bold.ttf') format('truetype');	    	   
+	src:url('../fonts/Cambay-Bold.ttf') format('truetype');	    	   
 }
 
 @font-face{
 	font-family:'Cambay-BoldItalic';
-	src:url('fonts/Cambay-BoldItalic.ttf') format('truetype');	   
+	src:url('../fonts/Cambay-BoldItalic.ttf') format('truetype');	   
 }
 
 @font-face{
 	font-family:'Cambay-Italic';
-	src:url('fonts/Cambay-Italic.ttf') format('truetype');	   
+	src:url('../fonts/Cambay-Italic.ttf') format('truetype');	   
 }
 
 @font-face{
