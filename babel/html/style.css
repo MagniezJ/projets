@@ -1,0 +1,253 @@
+@font-face{
+	font-family:'Cambay-Bold';
+	src:url('../fonts/Cambay-Bold.ttf') format('truetype');	    	   
+}
+
+@font-face{
+	font-family:'Cambay-BoldItalic';
+	src:url('../fonts/Cambay-BoldItalic.ttf') format('truetype');	   
+}
+
+@font-face{
+	font-family:'Cambay-Italic';
+	src:url('../fonts/Cambay-Italic.ttf') format('truetype');	   
+}
+
+@font-face{
+	font-family:'Cambay-Regular';
+	src:url('../fonts/Cambay-Regular.ttf') format('truetype');	   
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;    
+}    
+
+.toph{
+    display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;	
+}
+
+header h1{
+	font-family: 'Cambay-Bold';
+	font-size: 200%;
+	margin-left: 5%;
+	width: 100%;
+	text-align: center;
+}
+
+.ruban img{
+	width: 100%;
+	margin-left: 0%;
+	opacity: 50%;
+}
+
+nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	font-family: 'Cambay-Bold';
+	font-size: 100%;
+}
+
+.logo0 img{
+	margin-left: 10%; 
+	padding-top: 10%;
+}
+
+.biblio{
+	display: flex;
+	flex-direction: column;	
+	align-items: center;
+}
+
+.loope0{
+	width: 7%;
+    opacity: 70%;
+}
+
+.form0{
+	margin-left: 60%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+    width: 150%;
+}
+
+nav a{
+	border: 0px solid black;
+	padding: 0.2%;
+	border-radius: 10%/30%;
+	justify-content: center;
+	color: white;
+	padding-top: 0.5%;
+	box-shadow: 0px 0px 10px 1px rgb(70,70,70,0.3);
+	text-decoration: none;
+	margin-top: 3%;
+}
+
+nav a:hover{
+	background:white;
+	color:black;
+	transition: 0.6s;
+} 
+
+.p1{
+    padding-right: 4%;
+    padding-left: 4%;
+    background-color: rgb(76,76,76);
+}
+
+.p2{
+    padding-right: 3%;
+    padding-left: 3%;
+    background-color: rgb(0,163,255);    
+}
+
+.p3{
+    padding-right: 4%;
+    padding-left: 4%;
+    background-color: rgb(252,72,73);
+}
+
+.p4{
+    padding-right: 5%;
+    padding-left: 5%;
+    background-color: rgb(16,189,107);
+}
+
+.p5{
+    padding-right: 3%;
+    padding-left: 3%;
+    background-color: rgb(233,144,40);
+}
+
+footer{
+	background-color:rgb(25,25,25);
+	height: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+	text-align: center;
+	margin-top: 10%; 
+}
+
+.resaux img{	
+	width: 8%;
+	margin-right: -20%;
+	padding-top: 2.5%;
+}
+
+.reseaux{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;	
+}
+
+.rubanf img{
+	width: 350%;	
+	padding-left: 25%;	
+	margin-top: -140%;
+	opacity: 80%;			
+}
+
+footer p{
+	font-family: 'Cambay-Bold';
+	color: white;
+	font-size: 100%;
+	width: 180%;
+	padding-left: 30%;
+	padding-top: 0%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+p img{
+	width: 6%;
+	padding-left: 5%;
+	margin-bottom: -1%;
+}
+
+body{
+	background-image:url("../img/backg00.png");    
+    margin: auto;   
+}
+
+.titrecat a{
+	width: 30%;
+	font-family: 'Cambay-Bold';
+	font-size: 1.5em;
+	border: 0px solid black;
+	padding: 0%;
+	border-radius: 10%/50%;
+	justify-content: center;
+	color: white;
+	padding-top: 0.5%;
+	margin-left: 35%;	
+	box-shadow: 0px 0px 10px 1px rgb(70,70,70,0.3);
+	text-decoration: none;
+	margin-top: 3%;
+	display: flex;
+	flex-direction: column;	
+	text-align: center;
+	background-color: white;
+	color: black;
+}
+
+.titrecat{
+	margin-top: 10%;
+}
+
+body .titrecat .comedie:hover{
+	background:rgb(26,236,255);
+	color:white;
+	transition: 0.6s;
+} 
+
+body .titrecat .sciencefiction:hover{
+	background:rgb(0,164,249);
+	color:white;
+	transition: 0.6s;
+} 
+
+body .titrecat .horreur:hover{
+	background:rgb(249,0,0);
+	color:white;
+	transition: 0.6s;
+} 
+
+body .titrecat .romantique:hover{
+	background:rgb(255,119,247);
+	color:white;
+	transition: 0.6s;
+} 
+
+body .titrecat .drame:hover{
+	background:rgb(37,37,37);
+	color:white;
+	transition: 0.6s;
+} 
+
+body .titrecat .animation:hover{
+	background:rgb(228,97,220);
+	color:white;
+	transition: 0.6s;
+} 
+
+body .titrecat .truestory:hover{
+	background:rgb(294,105,0);
+	color:white;
+	transition: 0.6s;
+} 
+
+body .titrecat .documentaire:hover{
+	background:rgb(48,183,54);
+	color:white;
+	transition: 0.6s;
+} 
