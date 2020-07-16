@@ -66,13 +66,8 @@ nav {
 	align-items: center;
 }
 
-.loope0{
-	width: 7%;
-    opacity: 70%;
-}
-
 .form0{
-	margin-left: 60%;
+	margin-left: 63%;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -86,7 +81,7 @@ nav a{
 	justify-content: center;
 	color: white;
 	padding-top: 0.5%;
-	box-shadow: 0px 0px 10px 1px rgb(70,70,70,0.3);
+	box-shadow:0px 0px 10px 1px rgb(70,70,70,10);
 	text-decoration: none;
 	margin-top: 3%;
 }
@@ -180,8 +175,14 @@ body{
     margin: auto;   
 }
 
-.titrecat a{
-	width: 30%;
+
+.titrecat{
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.comedie a{
+	width: 20%;
 	font-family: 'Cambay-Bold';
 	font-size: 1.5em;
 	border: 0px solid black;
@@ -190,8 +191,29 @@ body{
 	justify-content: center;
 	color: white;
 	padding-top: 0.5%;
-	margin-left: 37%;	
-	box-shadow: 0px 0px 10px 1px rgb(70,70,70,0.3);
+	margin-left: 41%;	
+	box-shadow: 0px 0px 10px 1px rgb(70,70,70,10);
+	text-decoration: none;
+	margin-top:3%;
+	display: flex;
+	flex-direction: column;	
+	text-align: center;
+	background-color: white;
+	color: black;
+}
+
+.sciencefiction a{
+	width: 20%;
+	font-family: 'Cambay-Bold';
+	font-size: 1.5em;
+	border: 0px solid black;
+	padding: 0%;
+	border-radius: 10%/50%;
+	justify-content: center;
+	color: white;
+	padding-top: 0.5%;
+	margin-left: 41%;	
+	box-shadow: 0px 0px 10px 1px rgb(70,70,70,10);
 	text-decoration: none;
 	margin-top: 3%;
 	display: flex;
@@ -201,60 +223,186 @@ body{
 	color: black;
 }
 
-.titrecat{
-	margin-top: 10%;
+.horreur a{
+	width: 20%;
+	font-family: 'Cambay-Bold';
+	font-size: 1.5em;
+	border: 0px solid black;
+	padding: 0%;
+	border-radius: 10%/50%;
+	justify-content: center;
+	color: white;
+	padding-top: 0.5%;
+	margin-left: 41%;	
+	box-shadow: 0px 0px 10px 1px rgb(70,70,70,10);
+	text-decoration: none;
+	margin-top: 3%;
+	display: flex;
+	flex-direction: column;	
+	text-align: center;
+	background-color: white;
+	color: black;
 }
 
+.romantique a{
+	width: 20%;
+	font-family: 'Cambay-Bold';
+	font-size: 1.5em;
+	border: 0px solid black;
+	padding: 0%;
+	border-radius: 10%/50%;
+	justify-content: center;
+	color: white;
+	padding-top: 0.5%;
+	margin-left: 41%;	
+	box-shadow: 00px 0px 10px 1px rgb(70,70,70,10);
+	text-decoration: none;
+	margin-top: 3%;
+	display: flex;
+	flex-direction: column;	
+	text-align: center;
+	background-color: white;
+	color: black;
+}
+
+.drame a{
+	width: 20%;
+	font-family: 'Cambay-Bold';
+	font-size: 1.5em;
+	border: 0px solid black;
+	padding: 0%;
+	border-radius: 10%/50%;
+	justify-content: center;
+	color: white;
+	padding-top: 0.5%;
+	margin-left: 41%;	
+	box-shadow: 0px 0px 10px 1px rgb(70,70,70,10);
+	text-decoration: none;
+	margin-top: 3%;
+	display: flex;
+	flex-direction: column;	
+	text-align: center;
+	background-color: white;
+	color: black;
+}
+
+.animation a{
+	width: 20%;
+	font-family: 'Cambay-Bold';
+	font-size: 1.5em;
+	border: 0px solid black;
+	padding: 0%;
+	border-radius: 10%/50%;
+	justify-content: center;
+	color: white;
+	padding-top: 0.5%;
+	margin-left: 41%;	
+	box-shadow: 0px 0px 10px 1px rgb(70,70,70,10);
+	text-decoration: none;
+	margin-top: 3%;
+	display: flex;
+	flex-direction: column;	
+	text-align: center;
+	background-color: white;
+	color: black;
+}
+
+.truestory a{
+	width: 20%;
+	font-family: 'Cambay-Bold';
+	font-size: 1.5em;
+	border: 0px solid black;
+	padding: 0%;
+	border-radius: 10%/50%;
+	justify-content: center;
+	color: white;
+	padding-top: 0.5%;
+	margin-left: 41%;	
+	box-shadow: 0px 0px 10px 1px rgb(70,70,70,10);
+	text-decoration: none;
+	margin-top: 3%;
+	display: flex;
+	flex-direction: column;	
+	text-align: center;
+	background-color: white;
+	color: black;
+}
+
+.documentaire a{
+	width: 20%;
+	font-family: 'Cambay-Bold';
+	font-size: 1.5em;
+	border: 0px solid black;
+	padding: 0%;
+	border-radius: 10%/50%;
+	justify-content: center;
+	color: white;
+	padding-top: 0.5%;
+	margin-left: 41%;	
+	box-shadow: 0px 0px 10px 1px rgb(70,70,70,10);
+	text-decoration: none;
+	margin-top: 3%;
+	display: flex;
+	flex-direction: column;	
+	text-align: center;
+	background-color: white;
+	color: black;
+}
 body .titrecat .comedie a:hover{
 	background:rgb(26,236,255);
 	color:white;
 	transition: 0.6s;
 } 
 
-body .titrecat .sciencefiction:hover{
+body .titrecat .sciencefiction a:hover{
 	background:rgb(0,164,249);
 	color:white;
 	transition: 0.6s;
 } 
 
-body .titrecat .horreur:hover{
+body .titrecat .horreur a:hover{
 	background:rgb(249,0,0);
 	color:white;
 	transition: 0.6s;
 } 
 
-body .titrecat .romantique:hover{
+body .titrecat .romantique a:hover{
 	background:rgb(255,119,247);
 	color:white;
 	transition: 0.6s;
 } 
 
-body .titrecat .drame:hover{
+body .titrecat .drame a:hover{
 	background:rgb(37,37,37);
 	color:white;
 	transition: 0.6s;
 } 
 
-body .titrecat .animation:hover{
+body .titrecat .animation a:hover{
 	background:rgb(70,92,233);
 	color:white;
 	transition: 0.6s;
 } 
 
-body .titrecat .truestory:hover{
+body .titrecat .truestory a:hover{
 	background:rgb(294,105,0);
 	color:white;
 	transition: 0.6s;
 } 
 
-body .titrecat .documentaire:hover{
+body .titrecat .documentaire a:hover{
 	background:rgb(48,183,54);
 	color:white;
 	transition: 0.6s;
 } 
 
-.comedie{
-
+.comedieaffiches a{
+	height: 80%;
+	width: 100%;
+	margin-left: 40%;
+	margin-top: 10%;
+	border: 0px solid black;
+	box-shadow: 0px 0px 10px 1px rgb(70,70,70,10);	
 }
 
 .comedieaffiches {
@@ -263,13 +411,147 @@ body .titrecat .documentaire:hover{
 	border: none;
 	width: 14%;	
 	align-items: center;
-	margin-left: -1%;
-	margin-top: 5%;
+	margin-left: 10%;
+	margin-top: 2%;	
 }
 
-.comedieaffiches a{
+.sciencefictionaffiches a{
 	height: 80%;
 	width: 100%;
 	margin-left: 40%;
 	margin-top: 10%;
+	border: 0px solid black;
+	box-shadow: 0px 0px 10px 1px rgb(70,70,70,10);	
+}
+
+.sciencefictionaffiches{
+	display: flex;	
+	flex-direction: row;
+	border: none;
+	width: 14%;	
+	align-items: center;
+	margin-left: 10%;
+	margin-top: 2%;
+}
+
+.horreuraffiches a{
+	height: 80%;
+	width: 100%;
+	margin-left: 40%;
+	margin-top: 10%;
+	border: 0px solid black;
+	box-shadow: 0px 0px 10px 1px rgb(70,70,70,10);	
+}
+
+.horreuraffiches{
+	display: flex;	
+	flex-direction: row;
+	border: none;
+	width: 14%;	
+	align-items: center;
+	margin-left: 10%;
+	margin-top: 2%;
+}
+
+.romantiqueaffiches a{
+	height: 80%;
+	width: 100%;
+	margin-left: 40%;
+	margin-top: 10%;
+	border: 0px solid black;
+	box-shadow: 0px 0px 10px 1px rgb(70,70,70,10);	
+}
+
+.romantiqueaffiches{
+	display: flex;	
+	flex-direction: row;
+	border: none;
+	width: 14%;	
+	align-items: center;
+	margin-left: 10%;
+	margin-top: 2%;
+}
+
+.drameaffiches a{
+	height: 80%;
+	width: 100%;
+	margin-left: 40%;
+	margin-top: 10%;
+	border: 0px solid black;
+	box-shadow: 0px 0px 10px 1px rgb(70,70,70,10);	
+}
+
+.drameaffiches{
+	display: flex;	
+	flex-direction: row;
+	border: none;
+	width: 14%;	
+	align-items: center;
+	margin-left: 10%;
+	margin-top: 2%;
+}
+
+.animationaffiches a{
+	height: 80%;
+	width: 100%;
+	margin-left: 40%;
+	margin-top: 10%;
+	border: 0px solid black;
+	box-shadow: 0px 0px 10px 1px rgb(70,70,70,10);	
+}
+
+.animationaffiches{
+	display: flex;	
+	flex-direction: row;
+	border: none;
+	width: 14%;	
+	align-items: center;
+	margin-left: 10%;
+	margin-top: 2%;
+}
+
+.truestoryaffiches a{
+	height: 80%;
+	width: 100%;
+	margin-left: 40%;
+	margin-top: 10%;
+	border: 0px solid black;
+	box-shadow: 0px 0px 10px 1px rgb(70,70,70,10);	
+}
+
+.truestoryaffiches{
+	display: flex;	
+	flex-direction: row;
+	border: none;
+	width: 14%;	
+	align-items: center;
+	margin-left: 10%;
+	margin-top: 2%;
+}
+
+.documentaireaffiches a{
+	height: 80%;
+	width: 100%;
+	margin-left: 40%;
+	margin-top: 10%;
+	border: 0px solid black;
+	box-shadow: 0px 0px 10px 1px rgb(70,70,70,10);	
+}
+
+.documentaireaffiches{
+	display: flex;	
+	flex-direction: row;
+	border: none;
+	width: 14%;	
+	align-items: center;
+	margin-left: 10%;
+	margin-top: 2%;
+}
+
+.titrecat img{
+	transition:0.5s;
+}
+
+.titrecat img:hover{
+	transform : scale(1.5);
 }
