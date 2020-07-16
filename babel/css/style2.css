@@ -61,7 +61,7 @@
             font-size: 60px;
         }
         #img{transition:0.5s;} /* durée de l'animation en secondes*/
-        #img:hover{transform : scale(1.5);}
+        #img:hover{transform : scale(1.2);}
         
         .resume{
             font-family: 'Cambay-Regular';
@@ -125,7 +125,6 @@
             display: inline-block;
             width: 90%;
             padding: 3%;
-            margin-left: 10%;
         }
 
         .films a{

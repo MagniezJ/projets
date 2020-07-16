@@ -1,5 +1,13 @@
 <!DOCTYPE html>
 <html lang="fr">
+    <head>
+		
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" type="text/css" href="style.css">                                      
+        <title>Babel</title>
+
+    </head>
+
 	<head>
 		<meta charset="UTF-8">
 		<link rel="shortcut icon" type="image/x-icon" href="" />
@@ -7,7 +15,6 @@
 			Projet Babel
 		</title>
 		<link rel="stylesheet" href="../css/stylecine.css" />
-		<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 		<link rel="stylesheet" href="style.css" />
 		<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,500&display=swap" rel="stylesheet">
 	</head>
@@ -42,27 +49,57 @@
 		</nav>    
 	</header>
 	<h2>TOP 10</h2>
-	<div id="container">
-	<div class="swiper-container">
-		<div class="swiper-wrapper">
-		  <div class="swiper-slide" style="height: 500px;"><img src="../img/Hatchi.jpeg"/></div>
-		  <div class="swiper-slide" style="height: 500px;"><img src="../img/hostel.jpeg"/></div>
-		  <div class="swiper-slide" style="height: 500px;"><img src="../img/chien.jpeg"/></div>
-		  <div class="swiper-slide" style="height: 500px;"><img src="../img/blade.jpeg"/></div>
-		  <div class="swiper-slide" style="height: 500px;"><img src="../img/jack.jpeg"/></div>
-		  <div class="swiper-slide" style="height: 500px;"><img src="../img/sinis.jpeg"/></div>
-		  <div class="swiper-slide" style="height: 500px;"><img src="../img/singe.jpeg"/></div>
-		  <div class="swiper-slide" style="height: 500px;"><img src="../img/smars.jpeg"/></div>
-		  <div class="swiper-slide" style="height: 500px;"><img src="../img/7sis.jpeg"/></div>
-		  <div class="swiper-slide" style="height: 500px;"><img src="../img/alita.jpeg"/></div>
+	<div id="slider">
+	<div class="slider">
+	
+		<div class="slides">
+			<div id="slide-1">
+			<img id="img" src="../img/beetho.jpeg"/>
+			</div>
+			<div id="slide-2">
+			<img id="img" src="../img/chien.jpeg"/>
+			</div>
+			<div id="slide-3">
+				<img id="img"  src="../img/blade.jpeg"/>
+			</div>
+			<div id="slide-4">
+				<img  id="img" src="../img/dontb.jpeg"/>
+			</div>
+			<div id="slide-5">
+				<img id="img" src="../img/mother.jpeg"/>
+			</div>
+			<div id="slide-6">
+				<img id="img" src="../img/beetho.jpeg"/>
+				</div>
+				<div id="slide-7">
+				<img id="img" src="../img/chien.jpeg"/>
+				</div>
+				<div id="slide-8">
+					<img id="img" src="../img/blade.jpeg"/>
+				</div>
+				<div id="slide-9">
+					<img id="img" src="../img/dontb.jpeg"/>
+				</div>
+				<div id="slide-10">
+					<img id="img" src="../img/mother.jpeg"/>
+				</div>
 		</div>
-		<!-- Add Pagination -->
-		<div class="swiper-pagination"></div>
-		<!-- Add Arrows -->
-		<div class="swiper-button-next"></div>
-		<div class="swiper-button-prev"></div>
-	  </div>
+		<div id="a">
+			<a href="#slide-1">1</a>
+			<a href="#slide-2">2</a>
+			<a href="#slide-3">3</a>
+			<a href="#slide-4">4</a>
+			<a href="#slide-5">5</a>
+			<a href="#slide-6">6</a>
+			<a href="#slide-7">7</a>
+			<a href="#slide-8">8</a>
+			<a href="#slide-9">9</a>
+			<a href="#slide-10">10</a>
+		</div>
+		
 	</div>
+</div>
+</div>
 	<footer>
 
     	<div class="rubanf">
@@ -76,22 +113,7 @@
     		<a href="#"><img src="../img/twitter.png"></a>
     		<a href="#"><img src="../img/instagram.png"></a>
     	</div>
-	
+		<script type="text/javascript" src="slider.js"></script>
     </footer>
-	</body>
-	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-	<script src="../package/swiper-bundle.min.js"></script>
-
-	<script>
-	  var swiper = new Swiper('.swiper-container', {
-		pagination: {
-		  el: '.swiper-pagination',
-		  type: 'fraction',
-		},
-		navigation: {
-		  nextEl: '.swiper-button-next',
-		  prevEl: '.swiper-button-prev',
-		},
-	  });
-	</script>
+    </body>
     </html>
