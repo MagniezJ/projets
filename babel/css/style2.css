@@ -52,7 +52,7 @@
         }
         #explic{
             margin-left: 40%;
-            margin-top: -12%;
+            margin-top: -10%;
             font-family: 'Cambay-Regular';
             font-size: 20px;
         }
@@ -68,6 +68,10 @@
             font-size: 18px;
             margin-left: 20%;
             margin-top: 5%;
+        }
+
+        .resume strong{
+            font-size: 40px;
         }
         
         #acteur{
@@ -123,7 +127,7 @@
 
         .films{
             display: inline-block;
-            width: 90%;
+            width: 80%;
             padding: 3%;
             margin-left: 10%;
         }
