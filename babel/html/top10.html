@@ -43,7 +43,7 @@
 	</header>
 	<h2>TOP 10</h2>
 	<div id="container">
-	<div class="swiper-container">
+	<!-- <div class="swiper-container">
 		<div class="swiper-wrapper">
 		  <div class="swiper-slide" style="height: 500px;"><a href="frozen.html"><img src="../affiches/animation/frozen_small.jpg"/></a></div>
 		  <div class="swiper-slide" style="height: 500px;"><a href="mesviesdechien.html"><img src="../affiches/drame/mesviesdechien_small.jpg"/></a></div>
@@ -55,13 +55,24 @@
 		  <div class="swiper-slide" style="height: 500px;"><img src="../img/smars.jpeg"/></div>
 		  <div class="swiper-slide" style="height: 500px;"><img src="../img/7sis.jpeg"/></div>
 		  <div class="swiper-slide" style="height: 500px;"><img src="../img/alita.jpeg"/></div>
-		</div>
+		</div> -->
+		 <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide" style="background-image:url(../affiches/animation/epic_small.jpg)"></div>
+      <div class="swiper-slide" style="background-image:url(../affiches/animation/evrest_small.jpg)"></div>
+      <div class="swiper-slide" style="background-image:url(../affiches/comedie/quatre_small.jpg)"></div>
+      <div class="swiper-slide" style="background-image:url(../affiches/)"></div>
+      <div class="swiper-slide" style="background-image:url(./images/nature-5.jpg)"></div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
 		<!-- Add Pagination -->
 		<div class="swiper-pagination"></div>
 		<!-- Add Arrows -->
 		<div class="swiper-button-next"></div>
 		<div class="swiper-button-prev"></div>
-	  </div>
+	  </div> -->
 	</div>
 	<footer>
 
@@ -83,15 +94,18 @@
 	<script src="../package/swiper-bundle.min.js"></script>
 
 	<script>
-	  var swiper = new Swiper('.swiper-container', {
-		pagination: {
-		  el: '.swiper-pagination',
-		  type: 'fraction',
-		},
-		navigation: {
-		  nextEl: '.swiper-button-next',
-		  prevEl: '.swiper-button-prev',
-		},
-	  });
-	</script>
+		var swiper = new Swiper('.swiper-container', {
+		  effect: 'cube',
+		  grabCursor: true,
+		  cubeEffect: {
+			shadow: true,
+			slideShadows: true,
+			shadowOffset: 20,
+			shadowScale: 0.94,
+		  },
+		  pagination: {
+			el: '.swiper-pagination',
+		  },
+		});
+	  </script>
     </html>
