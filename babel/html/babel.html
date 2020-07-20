@@ -5,11 +5,8 @@
 
         <meta charset="utf-8"/>
         <link rel="stylesheet" type="text/css" href="../css/style.css"> 
-<<<<<<< HEAD
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
         <title>Accueil</title>
-=======
-        <title>Babel</title>
->>>>>>> parent of 7b82ec0... media querie Babel
 
     </head>
 
@@ -72,19 +69,19 @@
     			<a class="bonatirer" href="../affiches/comedie/bonatirer.jpg"> <img src="../affiches/comedie/bonatirer_small.jpg" alt="bonatirer" title="cliquez pour agrandir"/></a>
     			<a class="coloc" href="../affiches/comedie/coloc.jpg"> <img src="../affiches/comedie/coloc_small.jpg" alt="coloc" title="cliquez pour agrandir"/></a>
     			<a class="datelimite" href="../affiches/comedie/datelimite.jpg"> <img src="../affiches/comedie/datelimite_small.jpg" alt="datelimite" title="cliquez pour agrandir"/></a>
-                <div class="swiper-container">
-                    <div class="swiper-wrapper">
-                      <div class="swiper-slide">Slide 1</div>
-                      <div class="swiper-slide">Slide 2</div>
-                      <div class="swiper-slide">Slide 3</div>
-                      <div class="swiper-slide">Slide 4</div>
-                      <div class="swiper-slide">Slide 5</div>
-                    </div>
-                    <!-- Add Pagination -->
-                    <div class="swiper-pagination"></div>
-                  </div>
+              
     		</div>
-
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">Slide 1</div>
+                  <div class="swiper-slide">Slide 2</div>
+                  <div class="swiper-slide">Slide 3</div>
+                  <div class="swiper-slide">Slide 4</div>
+                  <div class="swiper-slide">Slide 5</div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+              </div>
     		<div class="sciencefiction">
     			<a href="#">Science Fiction</a>
     		</div>
@@ -197,14 +194,17 @@
                 <a href="#"><img src="../img/instagram.png"></a>
             </div>
         </footer>
-<<<<<<< HEAD
     	
     </body>
-
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+          slidesPerView: 3,
+          spaceBetween: 30,
+          pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+          },
+        });
+      </script>
     </html>
-=======
-
-    </body>
-
-    </html>
->>>>>>> parent of 7b82ec0... media querie Babel
