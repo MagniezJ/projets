@@ -5,6 +5,8 @@
 
         <meta charset="utf-8"/>
         <link rel="stylesheet" type="text/css" href="../css/style.css"> 
+        <link rel="stylesheet" type="text/css" href="../css/style2.css"> 
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
         <title>Accueil</title>
 
     </head>
@@ -42,10 +44,10 @@
     	</div>    
 
    	    <nav>
-   	    	<a href="#" class="p1">Accueil</a> 
+   	    	<a href="babel.html" class="p1">Accueil</a> 
    	    	<a href="#" class="p2">Nouveautés</a>
-   	    	<a href="#" class="p3">Cinémas</a>
-   	    	<a href="#" class="p4">Top 10</a>
+   	    	<a href="cinema.html" class="p3">Cinémas</a>
+   	    	<a href="top10.html" class="p4">Top 10</a>
    	    	<a href="#" class="p5">Box Office</a>
    	    </nav>    
     		
@@ -58,7 +60,7 @@
     	<div class="titrecat">
 
     		<div class="comedie">
-    			<a href="#">Comedie</a>
+    			<a href="comedie.html">Comedie</a>
     		</div>
     		
     		<div class="comedieaffiches">
@@ -82,7 +84,7 @@
     		</div>
 
     		<div class="sciencefiction">
-    			<a href="#">Science Fiction</a>
+    			<a href="scifi.html">Science Fiction</a>
     		</div>
     		
     		<div class="sciencefictionaffiches">
@@ -96,7 +98,7 @@
     		</div>
             
             <div class="horreur">
-                <a href="#">Horreur</a>
+                <a href="horreur.html">Horreur</a>
             </div>
 
             <div class="horreuraffiches">
@@ -110,7 +112,7 @@
             </div>
 
             <div class="romantique">
-                <a href="#">Romantique</a>
+                <a href="romantique.html">Romantique</a>
             </div>
 
             <div class="romantiqueaffiches">
@@ -193,7 +195,38 @@
                 <a href="#"><img src="../img/instagram.png"></a>
             </div>
         </footer>      
-
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<!-- Initialize Swiper -->
+	<script>
+		var menuButton = document.querySelector('.menu-button');
+		var openMenu = function () {
+			swiper.slidePrev();
+		};
+		var swiper = new Swiper('.swiper-container', {
+			slidesPerView: 'auto',
+			initialSlide: 1,
+			resistanceRatio: 0,
+			slideToClickedSlide: true,
+			on: {
+				slideChangeTransitionStart: function () {
+					var slider = this;
+					if (slider.activeIndex === 0) {
+						menuButton.classList.add('cross');
+						// required because of slideToClickedSlide
+						menuButton.removeEventListener('click', openMenu, true);
+					} else {
+						menuButton.classList.remove('cross');
+					}
+				}
+				, slideChangeTransitionEnd: function () {
+					var slider = this;
+					if (slider.activeIndex === 1) {
+						menuButton.addEventListener('click', openMenu, true);
+					}
+				},
+			}
+		});
+	</script>
     </body>
 
     </html>
