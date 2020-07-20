@@ -17,7 +17,32 @@
 	font-family:'Cambay-Regular';
 	src:url('../fonts/Cambay-Regular.ttf') format('truetype');	   
 }
-
+@media (min-width:730px){
+	
+    .swiper-container2 {
+		width: 100%;
+		height: 100%;
+	  }
+  
+	  .swiper-slide2 {
+		text-align: center;
+		font-size: 18px;
+		background: #fff;
+  
+		/* Center slide text vertically */
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		-webkit-justify-content: center;
+		justify-content: center;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		-webkit-align-items: center;
+		align-items: center;
+	  }
 header{
     display: flex;
     flex-direction: column;
@@ -553,4 +578,544 @@ body .titrecat .documentaire a:hover{
 
 .titrecat img:hover{
 	transform : scale(1.5);
+}
+}
+@media (max-width: 720px) {
+header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;   
+    margin: auto;    
+}    
+
+.toph{
+    display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;	
+}
+
+header h1{
+	font-family: 'Cambay-Bold';
+	font-size: 200%;
+	margin-left: 5%;
+	width: 100%;
+	visibility: hidden;
+	text-align: center;
+}
+
+.ruban img{
+	width: 100%;
+	margin-left: 0%;
+	opacity: 50%;
+}
+
+nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	font-family: 'Cambay-Bold';
+	font-size: 100%;
+}
+
+.logo0 img{
+	margin-left: 10%; 
+	padding-top: 10%;
+}
+
+.biblio{
+	display: flex;
+	flex-direction: column;	
+	align-items: center;
+}
+
+.form0{
+	margin-left: 63%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+    width: 150%;
+}
+
+nav a{
+	border: 0px solid black;
+	padding: 0.2%;
+	border-radius: 10%/30%;
+	justify-content: center;
+	color: white;
+	padding-top: 0.5%;
+	box-shadow:0px 0px 10px 1px rgb(70,70,70,10);
+	text-decoration: none;
+	margin-top: 3%;
+}
+
+nav a:hover{
+	background:white;
+	color:black;
+	transition: 0.6s;
+} 
+
+.p1{
+    padding-right: 4%;
+    padding-left: 4%;
+    background-color: rgb(76,76,76);
+}
+
+.p2{
+    padding-right: 3%;
+    padding-left: 3%;
+    background-color: rgb(0,163,255);    
+}
+
+.p3{
+    padding-right: 4%;
+    padding-left: 4%;
+    background-color: rgb(252,72,73);
+}
+
+.p4{
+    padding-right: 5%;
+    padding-left: 5%;
+    background-color: rgb(16,189,107);
+}
+
+.p5{
+    padding-right: 3%;
+    padding-left: 3%;
+    background-color: rgb(233,144,40);
+}
+
+footer{
+	background-color:rgb(25,25,25);
+	height: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+	text-align: center;
+	margin-top: 10%; 
+}
+
+.resaux img{	
+	width: 8%;
+	margin-right: -20%;
+	padding-top: 2.5%;
+}
+
+.reseaux{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;	
+}
+
+.rubanf img{
+	width: 350%;	
+	padding-left: 25%;	
+	margin-top: -140%;
+	opacity: 80%;			
+}
+
+footer p{
+	font-family: 'Cambay-Bold';
+	color: white;
+	font-size: 100%;
+	width: 180%;
+	padding-left: 30%;
+	padding-top: 0%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+p img{
+	width: 6%;
+	padding-left: 5%;
+	margin-bottom: -1%;
+}
+
+body{
+	background-image:url("../images/backg00.png");    
+    margin: auto;   
+}
+
+
+.titrecat{
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.comedie a{
+	width: 20%;
+	font-family: 'Cambay-Bold';
+	font-size: 1.5em;
+	border: 0px solid black;
+	padding: 0%;
+	border-radius: 10%/50%;
+	justify-content: center;
+	color: white;
+	padding-top: 0.5%;
+	margin-left: 41%;	
+	box-shadow: 0px 0px 10px 1px rgb(70,70,70,10);
+	text-decoration: none;
+	margin-top:3%;
+	display: flex;
+	flex-direction: column;	
+	text-align: center;
+	background-color: white;
+	color: black;
+}
+
+.sciencefiction a{
+	width: 20%;
+	font-family: 'Cambay-Bold';
+	font-size: 1.5em;
+	border: 0px solid black;
+	padding: 0%;
+	border-radius: 10%/50%;
+	justify-content: center;
+	color: white;
+	padding-top: 0.5%;
+	margin-left: 41%;	
+	box-shadow: 0px 0px 10px 1px rgb(70,70,70,10);
+	text-decoration: none;
+	margin-top: 3%;
+	display: flex;
+	flex-direction: column;	
+	text-align: center;
+	background-color: white;
+	color: black;
+}
+
+.horreur a{
+	width: 20%;
+	font-family: 'Cambay-Bold';
+	font-size: 1.5em;
+	border: 0px solid black;
+	padding: 0%;
+	border-radius: 10%/50%;
+	justify-content: center;
+	color: white;
+	padding-top: 0.5%;
+	margin-left: 41%;	
+	box-shadow: 0px 0px 10px 1px rgb(70,70,70,10);
+	text-decoration: none;
+	margin-top: 3%;
+	display: flex;
+	flex-direction: column;	
+	text-align: center;
+	background-color: white;
+	color: black;
+}
+
+.romantique a{
+	width: 20%;
+	font-family: 'Cambay-Bold';
+	font-size: 1.5em;
+	border: 0px solid black;
+	padding: 0%;
+	border-radius: 10%/50%;
+	justify-content: center;
+	color: white;
+	padding-top: 0.5%;
+	margin-left: 41%;	
+	box-shadow: 00px 0px 10px 1px rgb(70,70,70,10);
+	text-decoration: none;
+	margin-top: 3%;
+	display: flex;
+	flex-direction: column;	
+	text-align: center;
+	background-color: white;
+	color: black;
+}
+
+.drame a{
+	width: 20%;
+	font-family: 'Cambay-Bold';
+	font-size: 1.5em;
+	border: 0px solid black;
+	padding: 0%;
+	border-radius: 10%/50%;
+	justify-content: center;
+	color: white;
+	padding-top: 0.5%;
+	margin-left: 41%;	
+	box-shadow: 0px 0px 10px 1px rgb(70,70,70,10);
+	text-decoration: none;
+	margin-top: 3%;
+	display: flex;
+	flex-direction: column;	
+	text-align: center;
+	background-color: white;
+	color: black;
+}
+
+.animation a{
+	width: 20%;
+	font-family: 'Cambay-Bold';
+	font-size: 1.5em;
+	border: 0px solid black;
+	padding: 0%;
+	border-radius: 10%/50%;
+	justify-content: center;
+	color: white;
+	padding-top: 0.5%;
+	margin-left: 41%;	
+	box-shadow: 0px 0px 10px 1px rgb(70,70,70,10);
+	text-decoration: none;
+	margin-top: 3%;
+	display: flex;
+	flex-direction: column;	
+	text-align: center;
+	background-color: white;
+	color: black;
+}
+
+.truestory a{
+	width: 20%;
+	font-family: 'Cambay-Bold';
+	font-size: 1.5em;
+	border: 0px solid black;
+	padding: 0%;
+	border-radius: 10%/50%;
+	justify-content: center;
+	color: white;
+	padding-top: 0.5%;
+	margin-left: 41%;	
+	box-shadow: 0px 0px 10px 1px rgb(70,70,70,10);
+	text-decoration: none;
+	margin-top: 3%;
+	display: flex;
+	flex-direction: column;	
+	text-align: center;
+	background-color: white;
+	color: black;
+}
+
+.documentaire a{
+	width: 20%;
+	font-family: 'Cambay-Bold';
+	font-size: 1.5em;
+	border: 0px solid black;
+	padding: 0%;
+	border-radius: 10%/50%;
+	justify-content: center;
+	color: white;
+	padding-top: 0.5%;
+	margin-left: 41%;	
+	box-shadow: 0px 0px 10px 1px rgb(70,70,70,10);
+	text-decoration: none;
+	margin-top: 3%;
+	display: flex;
+	flex-direction: column;	
+	text-align: center;
+	background-color: white;
+	color: black;
+}
+body .titrecat .comedie a:hover{
+	background:rgb(26,236,255);
+	color:white;
+	transition: 0.6s;
+} 
+
+body .titrecat .sciencefiction a:hover{
+	background:rgb(0,164,249);
+	color:white;
+	transition: 0.6s;
+} 
+
+body .titrecat .horreur a:hover{
+	background:rgb(249,0,0);
+	color:white;
+	transition: 0.6s;
+} 
+
+body .titrecat .romantique a:hover{
+	background:rgb(255,119,247);
+	color:white;
+	transition: 0.6s;
+} 
+
+body .titrecat .drame a:hover{
+	background:rgb(37,37,37);
+	color:white;
+	transition: 0.6s;
+} 
+
+body .titrecat .animation a:hover{
+	background:rgb(70,92,233);
+	color:white;
+	transition: 0.6s;
+} 
+
+body .titrecat .truestory a:hover{
+	background:rgb(294,105,0);
+	color:white;
+	transition: 0.6s;
+} 
+
+body .titrecat .documentaire a:hover{
+	background:rgb(48,183,54);
+	color:white;
+	transition: 0.6s;
+} 
+
+.comedieaffiches a{
+	height: 80%;
+	width: 100%;
+	margin-left: 40%;
+	margin-top: 10%;
+	border: 0px solid black;
+	box-shadow: 0px 0px 10px 1px rgb(70,70,70,10);	
+}
+
+.comedieaffiches {
+	display: flex;	
+	flex-direction: row;
+	border: none;
+	width: 14%;	
+	align-items: center;
+	margin-left: 10%;
+	margin-top: 2%;	
+}
+
+.sciencefictionaffiches a{
+	height: 80%;
+	width: 100%;
+	margin-left: 40%;
+	margin-top: 10%;
+	border: 0px solid black;
+	box-shadow: 0px 0px 10px 1px rgb(70,70,70,10);	
+}
+
+.sciencefictionaffiches{
+	display: flex;	
+	flex-direction: row;
+	border: none;
+	width: 14%;	
+	align-items: center;
+	margin-left: 10%;
+	margin-top: 2%;
+}
+
+.horreuraffiches a{
+	height: 80%;
+	width: 100%;
+	margin-left: 40%;
+	margin-top: 10%;
+	border: 0px solid black;
+	box-shadow: 0px 0px 10px 1px rgb(70,70,70,10);	
+}
+
+.horreuraffiches{
+	display: flex;	
+	flex-direction: row;
+	border: none;
+	width: 14%;	
+	align-items: center;
+	margin-left: 10%;
+	margin-top: 2%;
+}
+
+.romantiqueaffiches a{
+	height: 80%;
+	width: 100%;
+	margin-left: 40%;
+	margin-top: 10%;
+	border: 0px solid black;
+	box-shadow: 0px 0px 10px 1px rgb(70,70,70,10);	
+}
+
+.romantiqueaffiches{
+	display: flex;	
+	flex-direction: row;
+	border: none;
+	width: 14%;	
+	align-items: center;
+	margin-left: 10%;
+	margin-top: 2%;
+}
+
+.drameaffiches a{
+	height: 80%;
+	width: 100%;
+	margin-left: 40%;
+	margin-top: 10%;
+	border: 0px solid black;
+	box-shadow: 0px 0px 10px 1px rgb(70,70,70,10);	
+}
+
+.drameaffiches{
+	display: flex;	
+	flex-direction: row;
+	border: none;
+	width: 14%;	
+	align-items: center;
+	margin-left: 10%;
+	margin-top: 2%;
+}
+
+.animationaffiches a{
+	height: 80%;
+	width: 100%;
+	margin-left: 40%;
+	margin-top: 10%;
+	border: 0px solid black;
+	box-shadow: 0px 0px 10px 1px rgb(70,70,70,10);	
+}
+
+.animationaffiches{
+	display: flex;	
+	flex-direction: row;
+	border: none;
+	width: 14%;	
+	align-items: center;
+	margin-left: 10%;
+	margin-top: 2%;
+}
+
+.truestoryaffiches a{
+	height: 80%;
+	width: 100%;
+	margin-left: 40%;
+	margin-top: 10%;
+	border: 0px solid black;
+	box-shadow: 0px 0px 10px 1px rgb(70,70,70,10);	
+}
+
+.truestoryaffiches{
+	display: flex;	
+	flex-direction: row;
+	border: none;
+	width: 14%;	
+	align-items: center;
+	margin-left: 10%;
+	margin-top: 2%;
+}
+
+.documentaireaffiches a{
+	height: 80%;
+	width: 100%;
+	margin-left: 40%;
+	margin-top: 10%;
+	border: 0px solid black;
+	box-shadow: 0px 0px 10px 1px rgb(70,70,70,10);	
+}
+
+.documentaireaffiches{
+	display: flex;	
+	flex-direction: row;
+	border: none;
+	width: 14%;	
+	align-items: center;
+	margin-left: 10%;
+	margin-top: 2%;
+}
+
+.titrecat img{
+	transition:0.5s;
+}
+
+.titrecat img:hover{
+	transform : scale(1.5);
+}
 }
