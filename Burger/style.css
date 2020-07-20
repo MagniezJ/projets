@@ -1,0 +1,212 @@
+   	body{
+	background-color: rgb(217,103,79);	
+	background-size:cover;
+	display: flex;
+	flex-direction: row;	
+	margin: auto;
+	justify-content: space-between;	
+	margin: 0;
+	padding: 0;
+}
+
+@font-face{
+	font-family:'balsamiqsansbold';
+	src:url('fonts/balsamiqsansbold.ttf') format('truetype'),
+	    url('fonts/balsamiqsansbold.eot') format('eot'),
+	    url('fonts/balsamiqsansbold.woff') format('woff'),
+	    url('fonts/balsamiqsansbold.woff2') format('woff2');	   
+}
+
+@font-face{
+	font-family:'balsamiqsansbolditalic';
+	src:url('fonts/balsamiqsansbolditalic.ttf') format('truetype'),
+	    url('fonts/balsamiqsansbolditalic.eot') format('eot'),
+	    url('fonts/balsamiqsansbolditalic.woff') format('woff'),
+	    url('fonts/balsamiqsansbolditalic.woff2') format('woff2');	   
+}
+
+@font-face{
+	font-family:'balsamiqsansitalic';
+	src:url('fonts/balsamiqsansitalic.ttf') format('truetype'),
+	    url('fonts/balsamiqsansitalic.eot') format('eot'),
+	    url('fonts/balsamiqsansitalic.woff') format('woff'),
+	    url('fonts/balsamiqsansitalic.woff2') format('woff2');	   
+}
+
+@font-face{
+	font-family:'balsamiqsansregular';
+	src:url('fonts/balsamiqsansregular.ttf') format('truetype'),
+	    url('fonts/balsamiqsansregular.eot') format('eot'),
+	    url('fonts/balsamiqsansregular.woff') format('woff'),
+	    url('fonts/balsamiqsansregular.woff2') format('woff2');	   
+}
+
+@font-face{
+	font-family:'Gutter Regular';
+	src:url('fonts/Gutter Regular.ttf') format('truetype');	    	   
+}
+
+section{
+	text-align: center;	
+}
+
+.sgauche{
+	background-color: ;
+	width:100%;
+	justify-content: space-around;
+	margin-left:5%;
+	margin-top: 5%;
+	
+}
+
+.scentre{
+	background-color: ;
+	width:100%;
+	height: 100%;
+	margin-right: 10%;
+}
+
+.sdroite{
+	background-color:;
+	width:100%;
+	height: 100%;
+}
+
+.titre1{
+	font-family:'franklin gothic demi cond'; 
+	font-size: 320%;
+	color: white;
+	font-weight: bold;
+	text-align: left;
+	padding-left: 28%;
+}
+
+.titre2{
+	font-family:'balsamiqsansbold'; 
+	font-size: ;
+	color: rgb(253,223,89);
+}
+
+.cercles {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;	
+	height: 15%;	
+}
+
+.cercle1{
+	border: solid 2px white;	
+	width: 3%;
+	height: 15.5%;	
+    border-radius: 100%;
+}
+
+.cercle{
+	border: solid rgb(233,149,103);	
+	width: 1%;
+	height: 5%;	
+    border-radius: 100%;
+    background-color: rgb(233,149,103);
+}
+
+.burger0{
+	margin-top: 5%;
+}
+
+.p1{
+	font-family:'balsamiqsansregular'; 
+	font-size: 100%;
+	color: white;
+	padding-top: 7%;
+}
+
+.p2{
+	font-family:'balsamiqsansregular'; 
+	font-size: 120%;
+	color: rgb(251,209,129);
+	padding-top: 0%;	
+}
+
+.burger{
+	padding-top: 15%;
+}
+
+button{
+    font-family:'balsamiqsansbold'; 	
+	color: white;	
+	background-color: rgb(217,103,79);
+	padding: 3%;
+	border: solid 1px white;
+	border-radius: 2%/15%;
+    margin-top: 3%;
+}
+
+button a {
+	text-decoration: none;
+	color: white;
+}
+
+.sdroite{
+	margin-left: -50%;
+	margin-top: -10%;
+}
+
+h1{
+	font-family:'Gutter Regular'; 	
+	color: white;
+	font-size: 1500%;
+	margin:0%;     
+    margin-left: -80%;
+    padding-top: 20%;
+}
+
+h2{
+	font-family:'balsamiqsansregular'; 	
+	color: white;
+	font-size: 220%;
+	margin:0%; 
+}
+
+h3{
+	font-family:'Gutter Regular'; 	
+	color: white;
+	font-size: 600%;
+	margin-top: 0%;
+}
+
+h4{
+	font-family:'Gutter Regular'; 	
+	color: white;
+	font-size: 390%;
+	margin-top: -30%;
+}
+
+.p4{
+	font-family:'balsamiqsansregular';
+	font-size: 100%;
+	color: white;
+	margin-top: -25%;
+}
+
+.cover0{
+	width: 190%;
+	margin-top: -189.95%;
+	opacity: 10%;
+	height: 108%;
+	margin-left: -40%;
+}
+
+.shadow0{
+	margin-top: -3%;
+	height: -10%;	
+	opacity: 10%;
+	margin-left: 5%;
+}
+
+.shadow2 img{
+	width: 90%;
+	height: 40%;
+	opacity: 15%;
+    padding-bottom: 5%;
+}
