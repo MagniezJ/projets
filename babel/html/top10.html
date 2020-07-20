@@ -69,10 +69,11 @@
 															src=../affiches/top10/histoirecarre.jpg> </a> </div> <div
 															class="swiper-slide"><a href="psiluvy.html"><img
 																src=../affiches/top10/loveucarre.jpg> </a> </div> </div>
-																<!-- Add Pagination -->
+																<!-- Add Pagination --><div class="swiper-button-next"></div>
+				<div class="swiper-button-prev"></div>
 															<div class="swiper-pagination"></div>
 				</div>
-				<div class="swiper-pagination"></div>
+				
 			</div>
 			<footer>
 				<div class="rubanf">
@@ -91,6 +92,10 @@
 <script src="../package/swiper-bundle.min.js"></script>
 <script>
 	var swiper = new Swiper('.swiper-container', {
+		navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
 		effect: 'cube',
 		grabCursor: true,
 		cubeEffect: {
