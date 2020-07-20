@@ -17,6 +17,7 @@
 	font-family:'Shaka Pow';
 	src:url('../fonts/Shaka Pow.ttf') format('truetype');	   
 }
+
 #cine{
     font-family: 'Cambay-Regular';
     font-size: 38px;
@@ -81,3 +82,4 @@ a{
     
     font-family: 'Shaka Pow';
   }
+

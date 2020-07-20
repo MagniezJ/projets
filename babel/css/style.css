@@ -655,7 +655,7 @@ nav {
 }
 
 .form0{
-	margin-left: 63%;
+	margin-left: 33%;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -760,7 +760,8 @@ p img{
 
 body{
 	background-image:url("../images/backg00.png");    
-    margin: auto;   
+	margin: auto;   
+	width: 100%;
 }
 
 

@@ -35,9 +35,10 @@
         right:0;
     }
 
+@media (min-width:720px){
     #aff{
         width: 100%;
-        margin-top: 5%;
+        margin-top:5%;
         }
 
         .titre{
@@ -140,3 +141,110 @@
         .films a{
             padding: 3%;
         }
+    }
+    @media (max-width:720px){
+        #aff{
+            width: 100%;
+            margin-top: 5%;
+            }
+    
+            .titre{
+                font-family: 'Cambay-Regular';
+                font-size: 40px;
+                color: black;
+                margin-top: 0%;
+                margin-left: 35%;
+            }
+            
+            #titre{
+                margin-left: 20%;
+            }
+            #explic{
+                margin-left: 60%;
+                margin-top: -50%;
+                font-family: 'Cambay-Regular';
+                font-size: 20px;
+            }
+            #sug{
+                display:flex;
+                flex-direction: column;
+                width: 100%;
+            }
+            #explic strong{
+                font-size: 60px;
+            }
+            #img{transition:0.5s;} /* durée de l'animation en secondes*/
+            #img:hover{transform : scale(1.5);}
+            
+            .resume{
+                font-family: 'Cambay-Regular';
+                font-size: 18px;
+                margin-left: 20%;
+                margin-top: 5%;
+            }
+    
+            .resume strong{
+                font-size: 40px;
+            }
+            
+            #acteur{
+                width: 90%;
+                height:auto;
+                margin-left: 10%;
+                margin-top: 2%;
+            }
+            #acteu{
+                width: 30%;
+                margin-left: 3%;
+            }
+            .ba{
+                margin-left: 0%;
+                margin-top: 1%;
+            }
+            
+            #act{
+                font-family: 'Cambay-Regular';
+                font-size: 28px;
+            margin-left: 20%;
+            }
+    
+    
+            .tab{
+                margin-top : 3%;
+                font-family: 'Cambay-Regular';
+                font-size: 28px;
+            margin-left: 2%;
+            }
+    
+            #dog{
+                width: 5%;}
+    
+            .suggest{
+                margin-left: 30%;
+                margin-top:5%;
+                font-family: 'Cambay-Regular';
+                font-size: 28px;
+            }
+    
+            #gif{
+                margin-left: 0%;
+            }
+    
+            #comedie{
+                margin-left: 30%;
+                margin-top:5%;
+                font-family: 'Cambay-Regular';
+                font-size: 28px;
+            }
+    
+            .films{
+                display: inline-block;
+                width: 80%;
+                padding: 3%;
+                margin-left: 10%;
+            }
+    
+            .films a{
+                padding: 3%;
+            }
+    }
