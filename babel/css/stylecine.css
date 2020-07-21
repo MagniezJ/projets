@@ -17,67 +17,74 @@
 	font-family:'Shaka Pow';
 	src:url('../fonts/Shaka Pow.ttf') format('truetype');	   
 }
-#cine{
-    font-family: 'Cambay-Regular';
-    font-size: 38px;
-    margin-left: 30%;
-}
-a{
-    text-decoration: none;
-    color:black;
-    padding: 2%;
-    margin-left:2%;
-}
-.cine{
-    margin-left: 8%;
+
+@font-face{
+    font-family:'Cambay-Bold';
+    src:url('../fonts/Cambay-Bold.ttf') format('truetype');            
 }
 
-#tcine{
+@font-face{
+    font-family:'Cambay-BoldItalic';
+    src:url('../fonts/Cambay-BoldItalic.ttf') format('truetype');      
+}
+
+@font-face{
+    font-family:'Cambay-Italic';
+    src:url('../fonts/Cambay-Italic.ttf') format('truetype');      
+}
+
+@font-face{
+    font-family:'Cambay-Regular';
+    src:url('../fonts/Cambay-Regular.ttf') format('truetype');     
+}
+
+h1{
+    font-family:Cambay-Bold;
+    font-size: 2em; 
+}
+
+h2{
+    font-family:Cambay-Bold;
+    font-size: 2em;
+    color: rgb(222,59,0); 
+}
+
+p{
+    font-family: Cambay-Regular;
+    font-size: 1em;
+}
+
+.cinemas1 {
+    margin-top: 5%;
+    text-align: center;
+    align-items: center;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 
-#nom{
-    margin-right: 15%;
-    margin-left: 5%;
-}
-
-#al{
-    margin-right: 3%;
-    margin-left: 3%;
-}
-
-#gaum{
-    margin-left: 5%;
-}
-
-#sport{
-    margin-left: 12%;
-}
-.swiper-container {
-    width: 400px;
-    height: 400px;
-}
-
-.swiper-slide {
-    background-position: center;
-    background-size: cover;
-}
-.ml15 {
-    font-weight: 800;
-    font-size: 3.8em;
-    text-transform: uppercase;
-    letter-spacing: 0.5em;
-    width: 50%;
+.cinemas2{    
+    text-align: center;
+    align-items: center;
     display: flex;
-    margin-left: 43%;
-    
-  }
-  
-  .ml15 .word {
-    display: inline-block;
-    line-height: 1em;
-   margin-right: 2%;
-    
-    font-family: 'Shaka Pow';
-  }
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.adresses1, .adresses2{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+}
+
+.maps1, .maps2{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;  
+}
+
+.maps1{
+    margin-bottom: 5%;
+}
