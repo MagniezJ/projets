@@ -19,12 +19,13 @@
 }
 @media (min-width:730px){
 	
-    .swiper-container2 {
+    .swiper-container {
 		width: 100%;
 		height: 100%;
+		display: none;
 	  }
   
-	  .swiper-slide2 {
+	  .swiper-slide {
 		text-align: center;
 		font-size: 18px;
 		background: #fff;
@@ -581,6 +582,31 @@ body .titrecat .documentaire a:hover{
 }
 }
 @media (max-width: 720px) {
+	
+    .swiper-container{
+		width: 100%;
+		height: 100%;
+	  }
+  
+	  .swiper-slide {
+		text-align: center;
+		font-size: 18px;
+		background: #fff;
+  
+		/* Center slide text vertically */
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		-webkit-justify-content: center;
+		justify-content: center;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		-webkit-align-items: center;
+		align-items: center;
+	  }
 header{
     display: flex;
     flex-direction: column;
@@ -969,7 +995,7 @@ body .titrecat .documentaire a:hover{
 }
 
 .comedieaffiches {
-	display: flex;	
+	display: none;	
 	flex-direction: row;
 	border: none;
 	width: 14%;	
@@ -988,7 +1014,7 @@ body .titrecat .documentaire a:hover{
 }
 
 .sciencefictionaffiches{
-	display: flex;	
+	display: none;	
 	flex-direction: row;
 	border: none;
 	width: 14%;	
@@ -1007,7 +1033,7 @@ body .titrecat .documentaire a:hover{
 }
 
 .horreuraffiches{
-	display: flex;	
+	display: none;	
 	flex-direction: row;
 	border: none;
 	width: 14%;	
@@ -1026,7 +1052,7 @@ body .titrecat .documentaire a:hover{
 }
 
 .romantiqueaffiches{
-	display: flex;	
+	display: none;	
 	flex-direction: row;
 	border: none;
 	width: 14%;	
@@ -1045,7 +1071,7 @@ body .titrecat .documentaire a:hover{
 }
 
 .drameaffiches{
-	display: flex;	
+	display: none;	
 	flex-direction: row;
 	border: none;
 	width: 14%;	
@@ -1064,7 +1090,7 @@ body .titrecat .documentaire a:hover{
 }
 
 .animationaffiches{
-	display: flex;	
+	display: none;	
 	flex-direction: row;
 	border: none;
 	width: 14%;	
@@ -1083,7 +1109,7 @@ body .titrecat .documentaire a:hover{
 }
 
 .truestoryaffiches{
-	display: flex;	
+	display: none;	
 	flex-direction: row;
 	border: none;
 	width: 14%;	
@@ -1102,7 +1128,7 @@ body .titrecat .documentaire a:hover{
 }
 
 .documentaireaffiches{
-	display: flex;	
+	display: none;	
 	flex-direction: row;
 	border: none;
 	width: 14%;	
@@ -1111,11 +1137,4 @@ body .titrecat .documentaire a:hover{
 	margin-top: 2%;
 }
 
-.titrecat img{
-	transition:0.5s;
-}
-
-.titrecat img:hover{
-	transform : scale(1.5);
-}
 }
