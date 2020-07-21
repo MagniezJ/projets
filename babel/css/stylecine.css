@@ -60,7 +60,7 @@ p{
     align-items: center;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-around;    
 }
 
 .cinemas2{    
@@ -87,4 +87,12 @@ p{
 
 .maps1{
     margin-bottom: 5%;
+}
+
+.cinemas1 img{
+    box-shadow:0px 0px 80px 50px rgb(220,220,220,10);
+}
+
+.cinemas2 img{
+    box-shadow:0px 0px 80px 50px rgb(220,220,220,10);
 }

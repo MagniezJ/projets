@@ -1,0 +1,94 @@
+@font-face{
+    font-family:'Cambay-Bold';
+    src:url('../fonts/Cambay-Bold.ttf') format('truetype');            
+}
+
+@font-face{
+    font-family:'Cambay-BoldItalic';
+    src:url('../fonts/Cambay-BoldItalic.ttf') format('truetype');      
+}
+
+@font-face{
+    font-family:'Cambay-Italic';
+    src:url('../fonts/Cambay-Italic.ttf') format('truetype');      
+}
+
+@font-face{
+    font-family:'Cambay-Regular';
+    src:url('../fonts/Cambay-Regular.ttf') format('truetype');     
+}
+
+table{
+	width: 80%;
+	margin-top: 5%;
+	margin-left: 10%;
+	text-align: center;
+	background-size: 100%;
+}
+
+td,th{
+    border: 1px solid ;
+    border-color: rgb(220,220,220);
+
+}
+
+th{
+	background-color: rgb(36,36,36);
+	color: white;
+	width: 30%;
+	font-family:Cambay-Bold;
+	font-size: 1.5em;
+	padding-top: 1%; 
+}
+
+.t1{
+	background-color: rgba(220,220,220,50%);
+
+}
+
+strong{
+	font-family:Cambay-Bold;
+	font-size: 1.5em; 
+}
+
+.chiffres{
+	font-family:Cambay-Bold;
+	font-size: 1.5em;
+}
+
+.chiffres2{
+	font-family:Cambay-regular;
+	font-size: 1.5em;
+}
+
+td{
+	font-family:Cambay-regular;
+	font-size: 1em;
+	padding: 0%;	
+}
+
+table img{
+	padding-top: 2%;
+}
+
+caption{
+	font-family:Cambay-Bold;
+	font-size: 2em;
+	color: grey;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+    width: 500%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    height: 30%;
+}
+
+.rang{
+	width: 0%;	
+}
+
+.rangch{
+	font-family:Cambay-Bold;
+	font-size: 2em;
+}
