@@ -1,0 +1,46 @@
+@font-face{
+	font-family:'Shaka Pow Hollow';
+	src:url('../fonts/Shaka Pow Hollow.ttf') format('truetype');	    	   
+}
+
+@font-face{
+	font-family:'Shaka Pow Upright Hollow';
+	src:url('../fonts/Shaka Pow Upright Hollow.ttf') format('truetype');	   
+}
+
+@font-face{
+	font-family:'Shaka Pow Upright';
+	src:url('../fonts/Shaka Pow Upright.ttf') format('truetype');	   
+}
+
+@font-face{
+	font-family:'Shaka Pow';
+	src:url('../fonts/Shaka Pow.ttf') format('truetype');	   
+}
+.swiper-container {
+    width: 400px;
+    height: 400px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+}
+.ml15 {
+    font-weight: 800;
+    font-size: 3.8em;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    width: 50%;
+    display: flex;
+    margin-left: 43%;
+    
+  }
+  
+  .ml15 .word {
+    display: inline-block;
+    line-height: 1em;
+   margin-right: 2%;
+    
+    font-family: 'Shaka Pow';
+  }
