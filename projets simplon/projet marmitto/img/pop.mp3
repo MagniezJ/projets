@@ -1,0 +1,9 @@
+#EXTM3U
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=100000,CODECS="mp4a.40.2,avc1.77.30"
+m3u8/ld/v489479_pop-corn-comment-faire-du-popcorn-en-video.m3u8
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=250000,CODECS="mp4a.40.2,avc1.77.30"
+m3u8/sd/v489479_pop-corn-comment-faire-du-popcorn-en-video.m3u8
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=700000,CODECS="mp4a.40.2,avc1.77.30"
+m3u8/md/v489479_pop-corn-comment-faire-du-popcorn-en-video.m3u8
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=900000,CODECS="mp4a.40.2,avc1.77.30"
+m3u8/hd/v489479_pop-corn-comment-faire-du-popcorn-en-video.m3u8

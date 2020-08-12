@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styleproj.css">
+</head>
+<body>
+    <div class="navigation">
+        <button id="sized" class="menu">
+            <span></span>
+        </button>
+    <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content animated           zoomIn">
+            <div class="modal-header">
+                <span class="close">×</span>
+            </div>
+
+            <div class="modal-body nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="pres.html">A propos</a></li>
+                    <li><a href="cv.html">CV</a></li>
+                    <li><a href="projets.html">Projets</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script>
+    var modal = document.getElementById('myModal');
+
+    // Get pseudoelement to open Modal
+    var btn = document.getElementById("sized");
+
+    // Get the <span> element to close Modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When user clicks button, open Modal
+    btn.onclick = function () {
+        modal.style.display = "block";
+    };
+
+    // When user clicks Close (x), close Modal
+    span.onclick = function () {
+        modal.style.display = "none";
+    };
+
+    // When user clicks anywhere outside of the Modal, close Modal
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+
+
+    Menu.init();
+</script>
+</html>
