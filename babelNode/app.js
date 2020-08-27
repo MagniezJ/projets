@@ -7,6 +7,9 @@ const app = express();
 const port = 3030;
 const dbname='main.db';
 //ouverture bd
+var livereload = require("livereload");
+var server = livereload.createServer();
+server.watch(__dirname + "/public");
 let db=new sqlite3.Database(dbname, err=>{
     if(err)
         throw err

@@ -10,17 +10,22 @@
 <body>
     <nav>
     <img  id="imagebn" src="/img/myke-simon-atsUqIm3wxo-unsplash.jpg%>"  alt="banner">
-<a href="/"><p id="afla" style="text-decoration:none; color:black;">Aflamy</p> </a>
+      <p id="log">Login</p>
+    <a href="/"><p id="afla" style="text-decoration:none; color:black;">Aflamy</p> </a>
 <img id="img1" src="/img/avatar.png" alt="">
         <div id="myModal" class="modal">
 
-            <button class="btn">X</button>
-            <img src="/img/foot.png" alt="" style="width:60%; margin-top:5%; margin-left:15%;">
-            <p class="mcate">Technologies utilisés</p>
+            <button class="button cross"></button>
+            <img id="gif" src="/img/hola.gif" alt="">
+            <p class="mcate">Vous avez un Compte ?</p>
 
-            <p class="mcate">But:</p>
+            <p class="mcate2">Connectez-vous</p>
+            <input class="form" type="text" placeholder="nom d'utilisateur" name="username">
+            <input class="form" style="top:58%" type="password" placeholder="password" name="pass">
+            <input class="form" style="top:68%; background-color:#FD655E; color:white" type="submit" value ="LOGIN">
+            <p class="mcate" style="top:71%; left:5%;">Vous n'êtes pas encore inscrit ? </p>
             <a href="#" class="btn5">
-                y Accéder
+                Inscrivez vous
               </a>
         </div>
 <a href="new"><p class="title" style="text-decoration:none;">Nouveautés</p></a>
@@ -245,7 +250,7 @@
 
     let b1=document.querySelector('#img1');
   let pop=document.querySelector('#myModal');
-  let b2=document.querySelector('.btn');
+  let b2=document.querySelector('.button');
   b1.addEventListener('click',open);
     b2.addEventListener('click',close);
 function open(){
