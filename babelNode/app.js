@@ -1,9 +1,18 @@
 const express = require("express");
+const sqlite3 = require('sqlite3');
 const bodyParser = require('body-parser');
 //On appelle express//
 const app = express();
 //On instancie le port //
 const port = 3030;
+const dbname='main.db';
+//ouverture bd
+let db=new sqlite3.Database(dbname, err=>{
+    if(err)
+        throw err
+    console.log('Database stated on '+ dbname)
+});
+
 
 app.set('view engine', 'ejs'); /* prise en compte dossier ejs */
 //Déclarer des middleware -check tuto//
@@ -20,8 +29,13 @@ app.get('/new', (req, res) => {
     res.render('new'); 
 /*  redirection d'accueil*/
 })
-
+db.close(err=>{
+    if(err)
+    throw err
+console.log('Database close')
+})
 //On ecoute le port//
 app.listen(port, function () {
     console.log("");
 });
+

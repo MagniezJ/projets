@@ -11,7 +11,18 @@
     <nav>
     <img  id="imagebn" src="/img/myke-simon-atsUqIm3wxo-unsplash.jpg%>"  alt="banner">
 <a href="/"><p id="afla" style="text-decoration:none; color:black;">Aflamy</p> </a>
-<img id="avatar" src="/img/avatar.png" alt="">
+<img id="img1" src="/img/avatar.png" alt="">
+        <div id="myModal" class="modal">
+
+            <button class="btn">X</button>
+            <img src="/img/foot.png" alt="" style="width:60%; margin-top:5%; margin-left:15%;">
+            <p class="mcate">Technologies utilisés</p>
+
+            <p class="mcate">But:</p>
+            <a href="#" class="btn5">
+                y Accéder
+              </a>
+        </div>
 <a href="new"><p class="title" style="text-decoration:none;">Nouveautés</p></a>
 <a href=""><p class="title" style="left: 32%; top:50%; text-decoration:none;">Top 10</p></a>
 <a href=""><p class="title" style="left: 56%; top:53%; text-decoration:none;">Cinémas</p></a>
@@ -203,8 +214,8 @@
     <p class="titre" style="top:298%">Bande-annonces</p>
     <div id="ba">
       <iframe width="760" height="515" src="https://www.youtube.com/embed/8lZki_Z35N0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <iframe style="position: absolute; left: 59%" width="440" height="315" src="https://www.youtube.com/embed/P37FEn5DFpk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <iframe style="position: absolute; left: 59%; top:355%" width="440" height="215" src="https://www.youtube.com/embed/rJaKYBLn0I8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe style="position: absolute; left: 59%" width="440" height="255" src="https://www.youtube.com/embed/P37FEn5DFpk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe style="position: absolute; left: 59%; top:343%" width="440" height="255" src="https://www.youtube.com/embed/rJaKYBLn0I8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 </section>
 
@@ -231,6 +242,19 @@
         },
       },
     });
+
+    let b1=document.querySelector('#img1');
+  let pop=document.querySelector('#myModal');
+  let b2=document.querySelector('.btn');
+  b1.addEventListener('click',open);
+    b2.addEventListener('click',close);
+function open(){
+  pop.style.display=" block";
+};
+
+function close(){
+    pop.style.display=" none";
+}
   </script>
 </body>
 

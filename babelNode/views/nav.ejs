@@ -3,5 +3,28 @@
 <a style="text-decoration:none;"  href="new"> <p id="tt" style="color:white; margin-left:30%; ">Nouveautés</p></a>
 <a style="text-decoration:none;"  href="#"> <p id="tt" style="color:white; margin-left:50%; ">Top 10</p></a>
 <a style="text-decoration:none;"  href="#"> <p id="tt" style="color:white; margin-left:70%; ">Cinemas</p></a>
-<a style="text-decoration:none;" href="#"> <img s id="avatar" style="margin-left:85%;margin-top:-1%;" src="/img/avatar.png" alt="" ></a>
+<img id="img1" style="margin-left:85%;margin-top:-1%;" src="/img/avatar.png" alt="" >
+<div id="myModal" class="modal">
+
+    <button class="btn">X</button>
+    <p class="mcate">But:</p>
+    <a href="#" class="btn5">
+        y Accéder
+      </a>
+</div>
+<script>
+    
+    let b1=document.querySelector('#img1');
+  let pop=document.querySelector('#myModal');
+  let b2=document.querySelector('.btn');
+  b1.addEventListener('click',open);
+    b2.addEventListener('click',close);
+function open(){
+  pop.style.display=" block";
+};
+
+function close(){
+    pop.style.display=" none";
+}
+</script>
 </nav>
