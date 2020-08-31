@@ -17,17 +17,24 @@
 
             <button class="button cross"></button>
             <img id="gif" src="/img/hola.gif" alt="">
+            <% if (admin === false){ %>
             <p class="mcate">Vous avez un Compte ?</p>
 
             <p class="mcate2">Connectez-vous</p>
-            <input class="form" type="text" placeholder="nom d'utilisateur" name="username">
-            <input class="form" style="top:58%" type="password" placeholder="password" name="pass">
-            <input class="form" style="top:68%; background-color:#FD655E; color:white" type="submit" value ="LOGIN">
+            <form method="post" >
+            <input class="form"  type="text" placeholder="nom d'utilisateur"  name="username">
+            <input class="form" id="mdp" style="top:58%" type="password" placeholder="password" name="pass">
+            <input class="form" style="top:68%; background-color:#FD655E; color:white" type="submit" method="post" value ="LOGIN">
             <p class="mcate" style="top:71%; left:5%;">Vous n'êtes pas encore inscrit ? </p>
             <a href="#" class="btn5">
                 Inscrivez vous
               </a>
+              <% }else{ %>
+                <p class="mcate"> Connexion reussie</p>
+                <p class="mcate2">Bonjour <%=name%></p>
+                <% } %>
         </div>
+      </form>
 <a href="new"><p class="title" style="text-decoration:none;">Nouveautés</p></a>
 <a href=""><p class="title" style="left: 32%; top:50%; text-decoration:none;">Top 10</p></a>
 <a href=""><p class="title" style="left: 56%; top:53%; text-decoration:none;">Cinémas</p></a>
@@ -226,6 +233,7 @@
 
  <%- include("footer.ejs") %>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="/index.js"></script>
 <script>
     var swiper = new Swiper('.swiper-container', {
       effect: 'coverflow',

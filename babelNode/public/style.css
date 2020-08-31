@@ -4,11 +4,11 @@ body{
 /* clé API: 43f0459f01b8a7f2458c283a850575a5 */
 @font-face{
 	font-family:'Neon';
-	src:url('/public/font/Neon.ttf') format('truetype');	    	   
+	src:url('/font/Neon.ttf') format('truetype');	    	   
 }
 @font-face{
 	font-family:'NeonTitres';
-	src:url('/public/font/neon2.ttf') format('truetype');	    	   
+	src:url('/font/neon2.ttf') format('truetype');	    	   
 }
 #imagebn{
     height:670px;
@@ -31,6 +31,7 @@ body{
     top: 57%;
     left:3%;
     color:white;
+    font-family:'NeonTitres';
 }
 
 .titre{
@@ -41,6 +42,7 @@ body{
     padding: 30px;
     margin-left: 35%;
     color: #FD655E;
+    font-family:'NeonTitres';
 }
 
 .swiper-container {
@@ -110,6 +112,8 @@ body{
     top: 11%;
     left:58%;
     color:white;
+    font-family:'Neon';
+    font-weight:bolder;
 }
 
 #rond{
@@ -151,6 +155,7 @@ body{
     margin-top: 1%;
     margin-left:3%;
     color:white;
+    font-family:'Neon';
 }
 
 #categorie{
@@ -206,6 +211,7 @@ border: 1px solid #000000;
     color:black;
     font-size: 40px;
     position: absolute;
+    font-family:'NeonTitres';
 }
 
 .modal {
@@ -297,4 +303,5 @@ left: 10%;
     font-size:28px;
     top:23%;
 left:6%;
+font-family:'NeonTitres';
 }
