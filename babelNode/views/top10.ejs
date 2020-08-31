@@ -5,15 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-    <title>Document</title>
+    <title>Aflamy</title>
 </head>
 <body>
     <%- include ("nav.ejs") %>
     <section>
-    <div class="swiper-container" style="position:absolute; top:40%">
+        <p class="mcate2" style="top: 10%;font-size: 50px; left: 40%"> Top 10</p>
+    <div class="swiper-container" style="position:absolute; top:10%; margin-bottom :6%; left: 20%">
         <div class="swiper-wrapper">
-          <div class="swiper-slide">Slide 1ngfddsffesdqfsfsreesdzedqszqesradezzs</div>
-          <div class="swiper-slide">Slide 2</div>
+          <div class="swiper-slide" style=" width: 583px; height: 614px;"><img style=" width: 583px; height: 614px;" src="/img/affiches/sciencefiction/avatar.jpg" alt=""></div>
+          <div class="swiper-slide" style=" width: 583px; height: 614px;"> <img style=" width: 583px; height: 614px;" src="/img/affiches/animation/reine.jpg" alt=""></div>
           <div class="swiper-slide">Slide 3</div>
           <div class="swiper-slide">Slide 4</div>
           <div class="swiper-slide">Slide 5</div>
@@ -29,16 +30,24 @@
     </section>
       <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
       <script>
-        var swiper = new Swiper('.swiper-container', {
-          slidesPerView: 4,
-          centeredSlides: true,
-          spaceBetween: 30,
-          grabCursor: true,
-          pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-          },
-        });
+       var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+        
+      },
+    });
       </script>
 </body>
 </html>

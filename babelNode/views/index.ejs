@@ -22,7 +22,9 @@
 
             <p class="mcate2">Connectez-vous</p>
             <form method="post" >
-            <input class="form"  type="text" placeholder="nom d'utilisateur"  name="username">
+              <label for="username" class="mcate2" style="top:47%">Pseudo</label>
+            <input required class="form"  pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/igm" type="email" placeholder="nom d'utilisateur"  name="username" id="username">
+            <label for="password" class="mcate2" style="top:55%">Password</label>
             <input class="form" id="mdp" style="top:58%" type="password" placeholder="password" name="pass">
             <input class="form" style="top:68%; background-color:#FD655E; color:white" type="submit" method="post" value ="LOGIN">
             <p class="mcate" style="top:71%; left:5%;">Vous n'êtes pas encore inscrit ? </p>
@@ -35,8 +37,8 @@
                 <% } %>
         </div>
       </form>
-<a href="new"><p class="title" style="text-decoration:none;">Nouveautés</p></a>
-<a href=""><p class="title" style="left: 32%; top:50%; text-decoration:none;">Top 10</p></a>
+<a href=""><p class="title" style="text-decoration:none;">Nouveautés</p></a>
+<a href="top10"><p class="title" style="left: 32%; top:50%; text-decoration:none;">Top 10</p></a>
 <a href=""><p class="title" style="left: 56%; top:53%; text-decoration:none;">Cinémas</p></a>
 </nav>
 <section>

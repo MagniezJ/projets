@@ -60,8 +60,8 @@ app.post('/', (req, res) => {
 
 });
 
-app.get('/new', (req, res) => {
-    res.render('new');
+app.get('/top10', (req, res) => {
+    res.render('top10');
     /*  redirection d'accueil*/
 })
 db.close(err => {
